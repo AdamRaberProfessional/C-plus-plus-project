@@ -14,7 +14,7 @@ int main()
                  "N-Z will be in group 2.\n\n";
 
     for(int i=0; i<10; i++) {
-        std::cout << "Enter name " << std::to_string(i+1) << ":";;
+        std::cout << "Enter name " << std::to_string(i+1) << ":";
         std::cin >> name;
         mylist.push_back(name);
     }
