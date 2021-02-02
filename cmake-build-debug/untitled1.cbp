@@ -80,9 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/acrab/CLionProjects/untitled1/justincase.cpp">
-			<Option target="untitled1"/>
-		</Unit>
 		<Unit filename="C:/Users/acrab/CLionProjects/untitled1/main.cpp">
 			<Option target="untitled1"/>
 		</Unit>

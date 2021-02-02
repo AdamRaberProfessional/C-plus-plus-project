@@ -142,33 +142,6 @@ untitled1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/build
 .PHONY : untitled1/fast
 
-justincase.obj: justincase.cpp.obj
-
-.PHONY : justincase.obj
-
-# target to build an object file
-justincase.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/justincase.cpp.obj
-.PHONY : justincase.cpp.obj
-
-justincase.i: justincase.cpp.i
-
-.PHONY : justincase.i
-
-# target to preprocess a source file
-justincase.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/justincase.cpp.i
-.PHONY : justincase.cpp.i
-
-justincase.s: justincase.cpp.s
-
-.PHONY : justincase.s
-
-# target to generate assembly for a file
-justincase.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/justincase.cpp.s
-.PHONY : justincase.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -205,9 +178,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled1
-	@echo ... justincase.obj
-	@echo ... justincase.i
-	@echo ... justincase.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

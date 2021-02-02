@@ -19,7 +19,7 @@ int main()
         mylist.push_back(name);
     }
 
-    std::cout << "\n\nGroup1:\n";
+    std::cout << "\n\nGroup 1:\n";
 
     for(auto & it : mylist){
         for (int i = 0; i < 13; ++i) {
@@ -29,7 +29,7 @@ int main()
         }
     }
 
-    std::cout << "\nGroup2:\n";
+    std::cout << "\nGroup 2:\n";
 
     for(auto & it : mylist){
         for (int i = 0; i < 13; ++i) {
