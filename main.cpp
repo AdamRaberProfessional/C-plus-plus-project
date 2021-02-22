@@ -4,9 +4,6 @@
 int main()
 {
 
-    std::string groupOne = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'm'};
-    std::string groupTwo = {'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-
     std::string name;
     std::list<std::string> mylist;
 
@@ -22,20 +19,18 @@ int main()
     std::cout << "\n\nGroup 1:\n";
 
     for(auto & it : mylist){
-        for (int i = 0; i < 13; ++i) {
-            if (groupOne[i] == tolower(it[0])) {
-                std::cout << it << "\n";
-            }
+        // if the ASCII val of the first character <= the value of char "m", print in group one.
+        if ((int)tolower(it[0]) <= (int)"m"[0]) {
+            std::cout << it << "\n";
         }
     }
 
     std::cout << "\nGroup 2:\n";
 
     for(auto & it : mylist){
-        for (int i = 0; i < 13; ++i) {
-            if (groupTwo[i] == tolower(it[0])) {
-                std::cout << it << "\n";
-            }
+        // if the ASCII val of the first character > the value of char "m", print in group two.
+        if ((int)tolower(it[0]) > (int)"m"[0]) {
+            std::cout << it << "\n";
         }
     }
 
